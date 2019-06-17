@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  public nome_usuario:string = "Charles Franca do Codigo";
 
-  constructor() {}
-
+  constructor() {
+  }
+  public somaDoisNumeros(): void{alert("Minha Função Funcionou...")};
+   
 }
+
+
